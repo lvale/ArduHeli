@@ -1,4 +1,8 @@
-ArduPilot Copter Release Notes:
+ArduHeli Release Notes:
+------------------------------------------------------------------
+ArduHeli 3.5.7 03-Dec-2018
+Changes from ArduHeli 3.5.6
+1) support for rotor governor with droop speed control
 ------------------------------------------------------------------
 ArduHeli 3.5.6 11-Apr-2018
 Changes from Copter 3.5.5
