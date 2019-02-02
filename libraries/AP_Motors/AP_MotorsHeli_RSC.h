@@ -117,6 +117,7 @@ private:
     float           _governor_droop_setting = 0.0f; // governor droop setting, range 0-100%
     float           _governor_output = 0.0f;        // governor output for rotor speed control
     int16_t         _governor_setpoint = 0.0f;      // governor speed setpoint, range 800-3500 rpm
+    float           _governor_status = 0.0f;        // RSC governor status for soft-start
     float           _governor_tc = 0.0f;            // governor throttle curve gain, range 50-100%
 
     // update_rotor_ramp - slews rotor output scalar between 0 and 1, outputs float scalar to _rotor_ramp_output
